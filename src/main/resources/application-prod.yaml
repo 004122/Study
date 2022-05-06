@@ -1,0 +1,22 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: a2777915656@163.com
+    password: DZGNFXEYKPMOPBDJ
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/book_manage
+    username: root
+    password: yz2000813
+  redis:
+    host: localhost
+  jpa:
+    #开启SQL语句执行日志信息
+    show-sql: false
+    hibernate:
+      #配置为自动创建
+      ddl-auto: update
+springfox:
+  documentation:
+    enabled: false
+
